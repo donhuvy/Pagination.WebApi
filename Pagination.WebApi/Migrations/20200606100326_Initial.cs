@@ -14,7 +14,7 @@ namespace Pagination.WebApi.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    Contact = table.Column<long>(nullable: false),
+                    Contact = table.Column<string>(nullable: false),
                     Email = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

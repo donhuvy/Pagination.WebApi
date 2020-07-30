@@ -1,0 +1,14 @@
+﻿cmd
+
+sqllocaldb create paginationDb
+sqllocaldb start paginationDb
+sqllocaldb info paginationDb
+
+(localdb)\paginationDb
+
+PM> Update-Database Initial
+
+https://www.generatedata.com/
+
+https://localhost:5001/api/customer?pageNumber=1&pageSize=10
+
